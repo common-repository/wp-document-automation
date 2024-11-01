@@ -1,0 +1,17 @@
+{
+    "name": "outsourceappz/flat-xml-opendocument-reader-writer",
+    "description": "A library used to read and write `textboxes` in a flat XML opendocument file.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Outsource Appz",
+            "email": "support@outsourceappz.com"
+        }
+    ],
+    "require": {},
+     "autoload" : {
+        "psr-4" : {
+            "OA\\OpenDocument\\FlatXML\\" : "src/"
+        }
+    }
+}

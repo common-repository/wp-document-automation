@@ -1,0 +1,17 @@
+{
+    "name": "outsourceappz/wp-library",
+    "description": "Helper library for plugin/theme development",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Support",
+            "email": "support@outsourceappz.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+    	"psr-4" : {
+    		"OA_WP_Library\\" : "src/"
+    	}
+    }
+}
